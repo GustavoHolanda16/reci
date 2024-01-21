@@ -145,8 +145,6 @@ a{
 .empresas{
     margin-top: 25px;
     align-items: center;
-    justify-content: center;
-    padding-left: 50px;
 
 }
 .empresas h1{
@@ -156,6 +154,7 @@ a{
 }
 .cards {
     display: flex;
+    justify-content: space-around;
     gap: 25px;
   }
   
@@ -205,6 +204,7 @@ a{
     height: auto;
     padding-top: 40px;
     color:  rgb(12, 51, 4);
+    border-radius: 8px;
 }
 .footer-content{
     display: flex;
@@ -255,7 +255,7 @@ a{
     opacity: .4;
     font-weight: 200;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
     body{
         width: 90%;
         margin: auto;
